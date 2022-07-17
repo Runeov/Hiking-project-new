@@ -171,6 +171,14 @@ nav ul li a:active {
     justify-content: center;
     height: 80%;
   }
+  .OH-container-second {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+  }
   .second-text {
     color: white;
     margin: 0 6px;
@@ -179,18 +187,17 @@ nav ul li a:active {
 /* End Second section */
 #third {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
   .container-third {
     width: 70%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90%;
     
   }
   .third-text {
@@ -661,3 +668,16 @@ footer {
     transition: background-color 650ms;
   }
 }
+@media screen and (max-width:945px){
+  .container-third{
+    padding-top: 200px;}
+  .OG-foot{
+    padding: 90px 0px
+
+  }
+
+
+  }
+  
+
+  
