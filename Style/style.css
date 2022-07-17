@@ -141,6 +141,11 @@ nav ul li a:active {
   font-size: 5rem;
   line-height: 5rem;
 }
+.HS-center-text {
+  padding-top: 200px;
+  font-size: 5rem;
+  line-height: 5rem;
+}
 .up-text {
   font-size: 2rem;
 }
@@ -180,7 +185,7 @@ nav ul li a:active {
   background-position: center;
 }
   .container-third {
-    width: 100%;
+    width: 70%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -192,6 +197,8 @@ nav ul li a:active {
     color: white;
     margin: 0 6px;
     text-align: left;
+    background-color: rgba(188, 62, 192, 0.8);
+    padding: 10px;
     
   }
 /*End third section */
@@ -220,10 +227,11 @@ nav ul li a:active {
 /*End forth section*/
 #fifth {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-position: 0% 50%
 }
   .container-fifth {
     width: 100%;
@@ -322,6 +330,15 @@ nav ul li a:active {
 .first-box-grid .box-text-inside p {
   font-size: 1.9rem;
 }
+.HS-first-box-grid {
+  background: linear-gradient(rgba(188, 62, 192, 0.8), rgba(142, 61, 188, 0.9));
+  transition: transform 650ms;
+  border-radius: 2rem;
+}
+
+.HS-first-box-grid .box-text-inside p {
+  font-size: 1.9rem;
+}
 .second-box-grid {
   background: linear-gradient(rgba(188, 62, 192, 0.8), rgba(142, 61, 188, 0.9));
   transition: transform 650ms;
@@ -332,6 +349,8 @@ nav ul li a:active {
 }
 .third-box-grid {
   background: linear-gradient(rgba(188, 62, 192, 0.8), rgba(142, 61, 188, 0.9));
+  background-repeat: no-repeat;
+  background-size: cover;
   transition: transform 650ms;
   border-radius: 2rem;
 }
