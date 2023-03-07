@@ -20,7 +20,7 @@
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="container-contact">
         <nav>
           <a aria-label="Logo" href="/" class="logo">
             <img src="assets/Icons/mountains.svg" alt="Adventure Trail Hikes" />
@@ -64,42 +64,57 @@
           </li>
           <li id="item" class="nav-item">
             <a aria-label="Shop" href="./Shop.html" class="nav-link"
-              >Shop</a
-            >
+              >Shop</a>
           </li>
           </ul>
           <div class="menu-icon">
             <img src="assets/Icons/fi-rr-menu-burger.png" alt="" class="menu" />
             <img src="assets/Icons/fi-rr-cross.png" alt="" class="close" />
-         <!-- Search bar -->
-           
-
-
-         
-          </div>
+            </div>
         </nav>
-      </div>
-    </header>
-    <section id="first" title="Man and woman sitting near water and mountains">
-      <div class="container-first">
-        <div class="first-text">
-          <h1 class="center-text">Fulfil your wanderlust</h1>
-          <p class="down-text">
-            Welcome to Adventure Trails Hikes! We aim to offer the most
-            exciting, challenging, educational, and cultural extreme hikes, in
-            exhilarating locations around the globe. We have a variety of
-            standard packages, as well as offering specialized tours that will
-            cater to your specific requirements.
-          </p>
         </div>
-      </div>
-    </section>
+        </header>      
+        <section id="six" 
+        style= 'background-color: rgb(0, 0, 0);' > <div class="container"  style= 'background-color: black;' class="container-six" >
+        </div></section>
+              <h1 class="contactH1">Contact</h1>
+            </div>
+          </div>
+        </section>
+        <div class="container">
+          <form id="contactForm">
+        
+            <label for="name">Name</label>
+            <input type="text" id="name" name="firstname" placeholder="Your name..">
+        
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="lastname" placeholder="Your E-mail..">
+        
+            <label for="hike">Type of Hike</label>
+            <select id="hike" name="hike">
+              <option value="-">Select a Hike</option>
+              <option value="Seven Mountains, Bergen">Seven Mountains, Bergen</option>
+              <option value="Monte Capanne, Tuscany">Monte Capanne, Tuscany</option>
+              <option value="Yurt camping in Mongolia">Yurt camping in Mongolia</option>
+              <option value="Camping in the Atlas Mountains of Morocco">Camping in the Atlas Mountains of Morocco</option>
+              <option value="Camping excursion in Yellowstone Park">Camping excursion in Yellowstone Park</option>
+              <option value="Patagonia, Argentina/Chile">Patagonia, Argentina/Chile</option>
+              <option value="Jammu and Kashmir, India">Jammu and Kashmir, India</option>
 
-    <footer>
-      <p>© 2022 Per Rune Overelv All Rights Reserved</p>
-    </footer>
-    <script src="Javascript/script.js"></script>
-  </body>
-</html>
+            </select>
+        
+            <label for="subject">Your message</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+    
+        <footer>
+          <p>© 2022 Per Rune Overelv All Rights Reserved</p>
+        </footer>
+        <script src="Javascript/contact.js"></script>
+        <script src="Javascript/script.js"></script>
 
-
+    <script type="text/javascript">

@@ -6,23 +6,34 @@
     <title>Hikes | Adventure Trail Hikes</title>
     <link rel="stylesheet" href="Style/style.css" />
     <link rel="icon" href="assets/Icons/logo.png" />
+    <!-- Hotjar Tracking Code for https://www.northernsun.no/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3306159,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
   </head>
   <body>
     <header>
       <div class="container">
         <nav>
           <a aria-label="Logo" href="/" class="logo">
-            <img src="./icons/mountains.svg" alt="Adventure Trail Hikes" />
+            <img src="assets/Icons/mountains.svg" alt="Adventure Trail Hikes" />
           </a>
+      
           <ul class="navlist" id="list">
             <li id="item" class="nav-item">
-              <a aria-label="Home" href="./index.html" class="nav-link">Home</a>
+              <a title="Home" href="./index.html" class="nav-link"
+                >Home</a
+              >
             </li>
             <li id="item" class="nav-item">
-              <a
-                aria-label="Our Hikes"
-                href="./Hikes.html"
-                class="nav-link active"
+              <a aria-label="Our Hikes" href="./Hikes.html" class="nav-link active"
                 >Our Hikes</a
               >
             </li>
@@ -50,10 +61,21 @@
             <li id="item" class="nav-item">
               <a aria-label="FAQ" href="./FAQ.html" class="nav-link">FAQ</a>
             </li>
+          </li>
+          <li id="item" class="nav-item">
+            <a aria-label="Shop" href="./Shop.html" class="nav-link"
+              >Shop</a
+            >
+          </li>
           </ul>
           <div class="menu-icon">
             <img src="assets/Icons/fi-rr-menu-burger.png" alt="" class="menu" />
             <img src="assets/Icons/fi-rr-cross.png" alt="" class="close" />
+         <!-- Search bar -->
+           
+
+
+         
           </div>
         </nav>
       </div>
@@ -61,7 +83,7 @@
     <section
       id="second"
       style="
-        background-image: url('./assets/photos/tim-tiedemann-149766-unsplash.jpg');"
+        background-image: url('images/tim-tiedemann-149766-unsplash.jpg');"
         alt="Man Looking towards mountains"
     >
       <div class="OH-container-second">
@@ -90,6 +112,7 @@
                 trip includes a visit to a Cathar castle as well as an
                 exhibition of local birds of prey.
               </p>
+           <form action="contact.html">  <button class="buy-button" >Enquiry</button> </form> 
             </div>
           </div>
           <div class="second-box-grid box">
@@ -101,6 +124,7 @@
                 city of Bergen. The Bergen Hiking Club offers an annual tour of
                 these. Be sure to bring rain gear!
               </p>
+          <form action="contact.html">  <button class="buy-button" >Enquiry</button> </form> 
             </div>
           </div>
           <div class="third-box-grid box">
@@ -114,6 +138,7 @@
                 years old. Spectacular views of other Islands of the
                 archipelago, including Corisca, from the summit.
               </p>
+     <form action="contact.html">  <button class="buy-button" >Enquiry</button> </form> 
             </div>
           </div>
         </div>
@@ -197,6 +222,7 @@
                 A 12-day trek on the Larapinta trail starting from and
                 concluding at Alice Springs.
               </p>
+            <form action="contact.html">  <button class="buy-button" >Enquiry</button> </form> 
             </div>
           </div>
           <div class="second-box-grid box">
@@ -208,6 +234,7 @@
                 and Exploradores Glacier. This is a demanding tour, but well
                 worth the effort!
               </p>
+            <form action="contact.html">  <button class="buy-button" >Enquiry</button> </form> 
             </div>
           </div>
           <div class="third-box-grid box">
@@ -219,11 +246,13 @@
                 included on this three-week tour, with an increasingly demanding
                 hiking itinerary.
               </p>
+         <form action="contact.html">      <button class="buy-button" >Enquiry</button> </form> 
             </div>
           </div>
         </div>
       </div>
     </section>
+    
     <footer>
       <p>© 2022 Per Rune Overelv All Rights Reserved</p>
     </footer>
