@@ -1,4 +1,4 @@
- **Goal**:
+## Goal 
 
 Create a captivating and functional website for a hiking company that appeals to outdoor enthusiasts.
 
@@ -6,13 +6,13 @@ Create a captivating and functional website for a hiking company that appeals to
 
 
 
-**Slogan**
+## Slogan:
 Pushing the Comfort Zone
 
-**Target Audience**
+## Target audience 
 Men and women aged 30 to 50 who enjoy being outdoors, hiking, exploring, skiing, camping, canoeing.
 
-**Description**
+## Description
 The website's development has successfully met the following criteria:
 
 **Design Appea**l: Tailored to engage our target audience with an attractive design.
